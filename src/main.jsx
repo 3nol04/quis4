@@ -23,12 +23,7 @@ const router = createBrowserRouter([
   {
     element: <LoginPage/>,
       path: '/Login',
-  } , 
-  {
-    path:"/",
-    element: <Corosel/>
-  }
-
+  } 
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
